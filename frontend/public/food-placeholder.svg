@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="520" viewBox="0 0 700 520" role="img" aria-label="Food placeholder">
+  <rect width="700" height="520" fill="#f8fafc"/>
+  <circle cx="350" cy="260" r="175" fill="#fed7aa"/>
+  <circle cx="350" cy="260" r="128" fill="#fff7ed"/>
+  <path d="M245 255c30-72 180-72 210 0 19 45-18 105-105 105s-124-60-105-105z" fill="#16a34a"/>
+  <circle cx="300" cy="240" r="24" fill="#dc2626"/>
+  <circle cx="400" cy="240" r="24" fill="#dc2626"/>
+  <circle cx="350" cy="290" r="28" fill="#f97316"/>
+  <path d="M165 425h370" stroke="#334155" stroke-width="16" stroke-linecap="round"/>
+</svg>
+

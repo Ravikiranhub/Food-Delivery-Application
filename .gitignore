@@ -1,0 +1,25 @@
+# Build output
+target/
+dist/
+build/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+backend/data/
+*.mv.db
+*.trace.db
+
+# OS
+.DS_Store
+Thumbs.db
