@@ -116,34 +116,12 @@ VITE_API_BASE_URL=http://localhost:8080/api
 
 Do not commit real passwords, database credentials, JWT secrets, or API keys.
 
-## Run With Docker
-
-From the project root:
-
-```bash
-docker compose --env-file .env up --build
-```
-
-URLs:
-- Frontend: `http://localhost:5173`
-- Backend: `http://localhost:8080`
-- Swagger UI: `http://localhost:8080/swagger-ui.html`
-- OpenAPI JSON: `http://localhost:8080/v3/api-docs`
 
 ## Run Backend Locally
 
-Start MySQL first, then run:
-
 ```bash
 cd backend
-mvn spring-boot:run
-```
-
-Run tests:
-
-```bash
-cd backend
-mvn test
+..\tools\apache-maven-3.9.9\bin\mvn.cmd spring-boot:run "-Dspring-boot.run.profiles=dev"
 ```
 
 ## Run Frontend Locally
